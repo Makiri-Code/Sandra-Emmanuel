@@ -1,3 +1,51 @@
-#img-div{
+#img-div {
    align-content: center;
-  }
+}
+
+#header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+
+#nav-bar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 45px;
+   padding-left: 8%;
+   padding-right: 8%;
+}
+
+.All-section {
+   margin-top: 20%;
+}
+
+#section-Features {
+   display: flex;
+   justify-content: space-between;
+}
+
+#section-Features>* {
+   flex-basis: 30%;
+}
+
+
+@media (max-width: 600px) {
+   header {
+      background-color: #ccc;
+   }
+
+   #header-img {
+      width: 50px;
+   }
+
+   .nav-link {
+      font-size: 12px;
+   }
+
+   #form {
+      margin-top: 10px;
+   }
+}
